@@ -2,6 +2,8 @@ const inputs = document.querySelectorAll("input")
 const btn = document.querySelector("button")
 const errorText = document.querySelector("h4")
 
+
+console.log("labas")
 const valid = {
     username: username => {
         if(!username) return false
